@@ -1,0 +1,7 @@
+[Unit]
+Description=CommitPush
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/pathtobin
